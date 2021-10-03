@@ -129,6 +129,7 @@ ax2.scatter(X2[:,1], np.dot(X2, W2))
 ax2.set_title("Degree=2")
 print("Empirical risk for degree 2 model: ", calculateEmpricalRisk(np.dot(X2, W2)))
 
+
 # For degree 3 polynomial
 deg3 = 3
 X3 = getPoweredX(deg3, X_train)
